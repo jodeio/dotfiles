@@ -100,7 +100,8 @@ export PATH="$PATH:$HOME/.composer/vendor/bin"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias storm="open -a PhpStorm"
 alias vcode="open -a Visual\ Studio\ Code"
-
+alias xcode="open -a Xcode"
+alias android="open -a Android\ Studio"
 
 # Load existing commands previously placed on bash profile
 . ~/.bash_profile
