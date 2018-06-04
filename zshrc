@@ -102,6 +102,8 @@ alias storm="open -a PhpStorm"
 alias vcode="open -a Visual\ Studio\ Code"
 alias xcode="open -a Xcode"
 alias android="open -a Android\ Studio"
+alias atom="open -a Atom"
+alias pycharm="open -a PyCharm"
 
 # Load existing commands previously placed on bash profile
 . ~/.bash_profile
@@ -111,7 +113,10 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
 # Overwrite highlight style
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=6"
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=6'
 
 # Overwrite user context content
 prompt_context() {}
+
+# Newline
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir newline vcs)
