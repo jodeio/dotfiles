@@ -101,6 +101,7 @@ alias xcode="open -a Xcode"
 alias android="open -a Android\ Studio"
 alias atom="open -a Atom"
 alias pycharm="open -a PyCharm"
+alias clear-suggestions='echo "" > ~/.zsh_history & exec $SHELL -l'A
 
 # Load existing commands previously placed on bash profile
 . ~/.bash_profile
