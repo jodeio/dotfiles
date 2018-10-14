@@ -61,7 +61,7 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git zsh-autosuggestions zsh-completion zsh-syntax-highlighting
+  git zsh-autosuggestions zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -99,9 +99,11 @@ alias storm="open -a PhpStorm"
 alias vcode="open -a Visual\ Studio\ Code"
 alias xcode="open -a Xcode"
 alias android="open -a Android\ Studio"
+alias androidp="open -a Android\ Studio\ 3.2\ Preview"
 alias atom="open -a Atom"
-alias pycharm="open -a PyCharm"
-alias clear-suggestions='echo "" > ~/.zsh_history & exec $SHELL -l'A
+alias charm="open -a PyCharm"
+alias clear-suggestions='echo "" > ~/.zsh_history & exec $SHELL -l'
+alias be="bundle exec"
 
 # Load existing commands previously placed on bash profile
 . ~/.bash_profile
@@ -111,10 +113,13 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
 # Overwrite highlight style
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=6'
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=cyan'
 
 # Overwrite user context content
 prompt_context() {}
 
-# Newline
+# Newline Prompt
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir newline vcs)
+
+# Travis
+[ -f /Users/joshuadeguzman/.travis/travis.sh ] && source /Users/joshuadeguzman/.travis/travis.sh
