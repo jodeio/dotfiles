@@ -104,7 +104,7 @@ alias atom="open -a Atom"
 alias charm="open -a PyCharm"
 alias clear-suggestions='echo "" > ~/.zsh_history & exec $SHELL -l'
 alias be="bundle exec"
-alias netpsd="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python"
+alias netspd="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python"
 
 # Load existing commands previously placed on bash profile
 . ~/.bash_profile
