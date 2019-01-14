@@ -1,0 +1,73 @@
+# Taps
+tap 'caskroom/cask'
+tap 'caskroom/eid'
+tap 'caskroom/fonts'
+tap 'caskroom/versions'
+tap 'homebrew/bundle'
+
+# Binaries
+brew 'awscli'
+brew 'bash' # Bash 4
+brew 'bat'
+brew 'coreutils' # Those that come with macOS are outdated
+brew 'git'
+brew 'gnupg2'
+brew 'grep'
+brew 'mackup'
+brew 'mas'
+brew 'trash'
+brew 'tree'
+brew 'zsh'
+brew 'zsh-completions'
+
+# Development
+brew 'php'
+brew 'imagick'
+brew 'mysql'
+brew 'node'
+brew 'redis'
+
+# Apps
+cask 'aerial'
+cask 'alfred'
+cask 'caffeine'
+cask 'discord'
+cask 'docker'
+cask 'dropbox'
+cask 'eid-be'
+cask 'eid-be-viewer'
+cask 'firefox'
+cask 'google-backup-and-sync'
+cask 'google-chrome'
+cask 'gpg-suite'
+cask 'insomnia'
+cask 'java'
+cask 'mysqlworkbench'
+cask 'phpstorm'
+cask 'sequel-pro'
+cask 'skype'
+cask 'slack'
+cask 'sublime-text'
+cask 'tableplus'
+cask 'tor-browser'
+cask 'tower2'
+cask 'transmit'
+cask 'vagrant'
+cask 'virtualbox'
+cask 'virtualbox-extension-pack'
+
+# Quicklook
+cask 'qlcolorcode'
+cask 'qlmarkdown'
+cask 'quicklook-json'
+cask 'quicklook-csv'
+cask 'qlstephen'
+
+# Fonts
+cask 'font-lato'
+cask 'font-open-sans'
+cask 'font-roboto'
+cask 'font-source-code-pro-for-powerline'
+cask 'font-source-code-pro'
+cask 'font-source-sans-pro'
+cask 'font-source-serif-pro'
