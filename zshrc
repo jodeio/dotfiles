@@ -124,3 +124,9 @@ POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir newline vcs)
 
 # Travis
 [ -f /Users/joshuadeguzman/.travis/travis.sh ] && source /Users/joshuadeguzman/.travis/travis.sh
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/joshuadeguzman/Tools/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/joshuadeguzman/Tools/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/joshuadeguzman/Tools/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/joshuadeguzman/Tools/google-cloud-sdk/completion.zsh.inc'; fi
