@@ -1,0 +1,6 @@
+[user]
+	email = devjoshuadeguzman@gmail.com
+	name = Joshua de Guzman
+[core]
+	safecrlf = false
+	editor = /usr/bin/vim
