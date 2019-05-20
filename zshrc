@@ -10,6 +10,10 @@ export PATH="$PATH:$HOME/Tools/flutter/bin"
 # Flutter Webdev
 export PATH="$PATH":"$HOME/Tools/flutter/.pub-cache/bin"
 
+# Gem
+export GEM_HOME=/Users/joshuadeguzman/.gem/ruby/2.5.0
+export PATH=$PATH:$GEM_HOME:/usr/local/Cellar/ruby/2.5.1/lib/ruby/gems/2.5.0
+
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
